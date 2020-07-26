@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>在线订购</title>
+    <link type="text/css "  rel="stylesheet " href="main.css ">
+</head>
+<body>
+<div class="dg">
+    <header class="top-header">
+        <img class="属性" src="" alt="">
+        <nav class="top-menu">
+            <ul>
+                <li class="交流分区属性"><a href="交流分区.html ">交流分区</a></li>
+                <li><a href="商品分区.html ">商品分区</a></li>
+                <li><a href="简单网页.html">主页</a></li>
+                <li><a href="成果展示.html ">成果展示</a></li>
+                <li><a href="在线订购.html ">在线订购</a></li>
+            </ul>
+        </nav>
+    </header>
+        <main class="znr">
+            <h3>产品订购</h3>
+            <form action="">
+             <div>
+                 <div><label for="beans">你喜欢的类型：</label></div>
+                 <div>
+                     <input type="text" id="beans" list="beans-list">
+                     <datalist id="beans-list">
+                         <option>衣服</option>
+                         <option>鞋子</option>
+                         <option>T恤</option>
+                         <option>裤子</option>
+                         <option>其他</option>
+                     </datalist>
+                 </div>
+             </div>
+             <div>
+                 <div><label for="color">颜色：</label></div>
+                 <input type="color" id="color">
+             </div>
+              <div >
+                  <label for="step">数量：</label>
+                  <input type="step" placeholder="请选择数量" minlength="1" maxlength="10">
+              </div>
+                <div>
+                    <div><label for="dater">希望发货日期：</label></div>
+                    <input type="date" id="date"><br>
+                </div>
+            <div>
+            </div>
+                <div>
+                    <div><label for="dress">收货地址：</label></div>
+                    <input type="text" id="dress" placeholder="请输入地址：" required>
+                </div>
+                <div>
+                <div><label for="phone">联系电话：</label></div>
+                <div>
+                    <input type="tel"  id="phone" name="phone" placeholder="请输入收货电话号码" required>
+                </div>
+
+            <div>
+                <div><label for="comments">留言：</label></div>
+                <div>
+                    <textarea id="comments" name="comments" maxlength="100"></textarea>
+                </div>
+            </div>
+                <div>
+                    <div></div>
+                    <div>
+                        <input type="submit" value="现在订购">
+                    </div>
+                </div>
+            </form>
+        </main>
+</div>
+
+</body>
+</html>
